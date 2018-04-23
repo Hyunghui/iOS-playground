@@ -9,6 +9,13 @@
 import UIKit
 import CoreData
 
+#if DEBUG
+let isDebug = true
+#else
+let isDebug = false
+#endif
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        print("isDebug = \(isDebug)")
+        L.e(message: "isDebug = \(isDebug)")
+        L.w(message: "isDebug = \(isDebug)")
+        L.d(message: "isDebug = \(isDebug)")
+        L.i(message: "isDebug = \(isDebug)")
+        L.v(message: "isDebug = \(isDebug)")
         return true
     }
 
