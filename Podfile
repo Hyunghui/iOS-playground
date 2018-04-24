@@ -6,7 +6,8 @@ target 'iOS-Playground' do
   use_frameworks!
 
   # Pods for iOS-Playground
-
+  pod 'XCGLogger', '~> 6.0.2'
+  
   target 'iOS-PlaygroundTests' do
     inherit! :search_paths
     # Pods for testing

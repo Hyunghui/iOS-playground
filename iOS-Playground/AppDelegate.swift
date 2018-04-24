@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import XCGLogger
 
 #if DEBUG
 let isDebug = true
@@ -15,6 +16,7 @@ let isDebug = true
 let isDebug = false
 #endif
 
+let log = XCGLogger.default
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,12 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        log.setup(level: .debug, showThreadName: true, showLevel: true, showFileNames: true, showLineNumbers: true, writeToFile: "path/to/file", fileLevel: .debug)
+        
         print("isDebug = \(isDebug)")
         L.e(message: "isDebug = \(isDebug)")
         L.w(message: "isDebug = \(isDebug)")
         L.d(message: "isDebug = \(isDebug)")
         L.i(message: "isDebug = \(isDebug)")
         L.v(message: "isDebug = \(isDebug)")
+        
+        log.verbose("A verbose message, usually useful when working on a specific problem")
+        log.debug("A debug message")
+        log.info("An info message, probably useful to power users looking in console.app")
+        log.warning("A warning message, may indicate a possible error")
+        log.error("An error occurred, but it's recoverable, just info about what happened")
+        log.severe("A severe error occurred, we are likely about to crash now")
         return true
     }
 
