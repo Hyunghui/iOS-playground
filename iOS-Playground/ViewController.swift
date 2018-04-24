@@ -14,8 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        DDLog.add(DDASLLogger.sharedInstance) // ASL = Apple System Logs
-
+        
         DDLogVerbose("Verbose")
         DDLogDebug("Debug")
         DDLogInfo("Info")
