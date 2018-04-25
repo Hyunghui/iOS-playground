@@ -9,7 +9,7 @@
 import UIKit
 import CocoaLumberjack
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: Properties
     
@@ -18,7 +18,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         DDLogVerbose("Verbose")
         DDLogDebug("Debug")
@@ -26,11 +25,25 @@ class ViewController: UIViewController {
         DDLogWarn("Warn")
         DDLogError("Error")
         print("really")
+        
+        // Handle the text field's user input through delegate callbacks.
+        nameTextField.delegate = self
     }
     
     // MARK: Actions
     @IBAction func setDefaultLabelText(_ sender: UIButton) {
         mealNameLabel.text = "Default Text"
+    }
+    
+    // MARK: UITextFieldDelegate
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // Hide the keyboard.
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        mealNameLabel.text = textField.text
     }
     
 }
