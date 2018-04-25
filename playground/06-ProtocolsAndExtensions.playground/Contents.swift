@@ -66,14 +66,9 @@ extension Double: DoubleProtocol {
     var absoluteValue: Double {
         return abs(self)
     }
-    
-    
 }
 var testDouble: Double = -9
 print(testDouble.absoluteValue)
 
 let protocolValue: ExampleProtocol = a
 print(protocolValue.simpleDescription)
-
-
-

@@ -8,6 +8,7 @@
 
 import XCTest
 
+// swiftlint:disable:next type_name
 class iOS_PlaygroundUITests: XCTestCase {
         
     override func setUp() {

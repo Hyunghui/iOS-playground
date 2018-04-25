@@ -97,7 +97,7 @@ struct Card {
         return "The \(rank.simpleDescription()) of \(suit.simpleDescription())"
     }
     func fullDeck() {
-        for rank in 1...13  {
+        for rank in 1...13 {
             for suit in 0...3 {
                 let r = Rank.init(rawValue: rank)
                 let s = Suit.init(rawValue: suit)
@@ -109,10 +109,3 @@ struct Card {
 let threeOfShapes = Card(rank: .three, suit: .spades)
 let threeOfSpadesDescription = threeOfShapes.simpleDescription()
 threeOfShapes.fullDeck()
-
-
-
-
-
-
-

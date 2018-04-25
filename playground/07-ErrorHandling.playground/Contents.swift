@@ -33,7 +33,6 @@ do {
     print(error)
 }
 
-
 // Multiple error handling
 do {
     let printerResponse = try send(job: 1440, toPrinter: "Tokyo")
@@ -65,13 +64,3 @@ func fridgeContains(_ food: String) -> Bool {
 }
 fridgeContains("milk")
 print(fridgeInOpen)
-
-
-
-
-
-
-
-
-
-

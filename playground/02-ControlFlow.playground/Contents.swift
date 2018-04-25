@@ -35,14 +35,14 @@ print(informalGreeting)
 // Switch
 let vegetable = "red pepper"
 switch vegetable {
-    case "celery":
-        print("Add some raisins and make ants on a log.")
-    case "cucumber", "watercress":
-        print("That would make a good tea sandwich.")
-    case let y where y.hasSuffix("pepper"):
-        print("Is it a spicy \(y)?")
-    default:
-        print("Everything tastes good in soup.")
+case "celery":
+    print("Add some raisins and make ants on a log.")
+case "cucumber", "watercress":
+    print("That would make a good tea sandwich.")
+case let y where y.hasSuffix("pepper"):
+    print("Is it a spicy \(y)?")
+default:
+    print("Everything tastes good in soup.")
 }
 
 // for in (dictionary)
@@ -84,6 +84,3 @@ for i in 0...4 {
     total += i
 }
 print(total)
-
-
-

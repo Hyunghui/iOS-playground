@@ -53,9 +53,3 @@ print(occupations)
 // Create empty array, dictionary
 let emptyArray = [String]()
 let emptyDictionary = [String, String]()
-
-
-
-
-
-

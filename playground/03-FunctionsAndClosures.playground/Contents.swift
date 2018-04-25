@@ -6,7 +6,6 @@ func greet(person: String, day: String, lunchSpecial: String) -> String {
 }
 greet(person: "Peter", day: "Sunday", lunchSpecial: "Hamberger")
 
-
 // Function - omit parameter or custom argument label
 func greet(_ person: String, on day: String) -> String {
     return "Hello \(person), today is \(day)."
@@ -89,14 +88,3 @@ print(mappedNumbers)
 // Function - When a closure is the only argument to a function, you can omit the parentheses entirely.
 let sortedNumbers = numbers.sorted() { $0 < $1 }
 print(sortedNumbers)
-
-
-
-
-
-
-
-
-
-
-

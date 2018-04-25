@@ -1,0 +1,35 @@
+# Configuration Examples://github.com/realm/SwiftLint#configuration
+# Rules: https://github.com/realm/SwiftLint/tree/master/Source/SwiftLintFramework/Rules
+
+disabled_rules: # rule identifiers to exclude from running
+- trailing_whitespace
+- identifier_name
+- line_length
+- unused_closure_parameter
+- nesting
+- multiple_closures_with_trailing_closure
+- trailing_comma
+- empty_parentheses_with_trailing_closure
+- large_tuple
+- for_where
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+- Carthage
+- Pods
+- Source/ExcludedFolder
+- Source/ExcludedFile.swift
+
+# configurable rules can be customized from this configuration file
+function_parameter_count:
+  warning: 6
+  error: 9
+
+# https://github.com/realm/SwiftLint#defining-custom-rules
+#custom_rules:
+#  prevent_print: # rule identifier
+#    name: "Prevent print" # rule name. optional.
+#    regex: "(print\\()" # matching pattern
+#    match_kinds: # SyntaxKinds to match. optional.
+#      - identifier
+#    message: "Direct print() call should be avoided, use logger instead" # violation message. optional.
+#    severity: warning # violation severity. optional.

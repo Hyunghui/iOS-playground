@@ -16,6 +16,7 @@ enum LogEvent: String {
     case v = "[🔬]" // verbose
 }
 
+// swiftlint:disable:next type_name
 class L {
     static var dateFormat = "yyyy-MM-dd hh:mm:ssSSS"
     static var dateFormatter: DateFormatter {
@@ -32,12 +33,11 @@ class L {
     }
     
     private class func log(message: String,
-        event: LogEvent,
-        _ fileName: String,
-        _ line: Int,
-        _ column: Int,
-        _ funcName: String)
-    {
+                           event: LogEvent,
+                           _ fileName: String,
+                           _ line: Int,
+                           _ column: Int,
+                           _ funcName: String) {
         #if DEBUG
         print("\(Date().toString()) \(event.rawValue)[\(sourceFileName(filePath: fileName))]:L:\(line) C:\(column) \(funcName) -> \(message)")
         #endif

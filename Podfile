@@ -6,6 +6,7 @@ target 'iOS-Playground' do
   use_frameworks!
 
   # Pods for iOS-Playground
+  pod 'SwiftLint'
   pod 'CocoaLumberjack/Swift'
 
   target 'iOS-PlaygroundTests' do
