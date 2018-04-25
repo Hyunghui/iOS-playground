@@ -8,13 +8,15 @@
 
 import UIKit
 import CoreData
+import CocoaLumberjack
 
 #if DEBUG
 let isDebug = true
+let ddLogLevel = DDLogLevel.verbose
 #else
 let isDebug = false
+let ddLogLevel = DDLogLevel.warning
 #endif
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,6 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //        DDLog.add(DDASLLogger.sharedInstance) // ASL = Apple System Logs
+        DDLog.add(DDASLLogger.sharedInstance, with: ddLogLevel)
         
         print("isDebug = \(isDebug)")
         L.e(message: "isDebug = \(isDebug)")

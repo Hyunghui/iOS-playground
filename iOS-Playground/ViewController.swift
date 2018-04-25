@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import CocoaLumberjack
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        DDLogVerbose("Verbose")
+        DDLogDebug("Debug")
+        DDLogInfo("Info")
+        DDLogWarn("Warn")
+        DDLogError("Error")
+        print("really")
     }
 
     override func didReceiveMemoryWarning() {
