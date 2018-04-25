@@ -40,9 +40,11 @@
 
 /* Begin PBXFileReference section */
 		2B63831D7521614598E7FFB5 /* Pods-iOS-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Playground/Pods-iOS-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		2C7BDEEB35C0FDD2E5BE731D /* Pods-iOS-PlaygroundTests.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundTests.preview.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundTests/Pods-iOS-PlaygroundTests.preview.xcconfig"; sourceTree = "<group>"; };
 		2C8E115E0C8ECA70DB6FFA03 /* Pods-iOS-PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundTests/Pods-iOS-PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		2F614C7DB0EBA3A8FA0B6D9F /* Pods_iOS_PlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_PlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1F403C1D4359D5E2EFD790 /* Pods-iOS-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Playground/Pods-iOS-Playground.release.xcconfig"; sourceTree = "<group>"; };
+		3BB8B7771CA5AEF455033C60 /* Pods-iOS-PlaygroundUITests.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundUITests.preview.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundUITests/Pods-iOS-PlaygroundUITests.preview.xcconfig"; sourceTree = "<group>"; };
 		66BE0B75B40C5D563FA772E8 /* Pods-iOS-PlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundUITests/Pods-iOS-PlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
 		75D53CD82F76716C6D7E501D /* Pods-iOS-PlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundUITests/Pods-iOS-PlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C89A1A228D748389586E94D /* Pods_iOS_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 		C2E5125F2088994600125547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9901FE1634A143CF28A3E6C /* Pods-iOS-PlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-PlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-PlaygroundTests/Pods-iOS-PlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBE53CBB6B4DB81491D55805 /* Pods_iOS_PlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_PlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83D23237022D0E0E5B31C8E /* Pods-iOS-Playground.preview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Playground.preview.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Playground/Pods-iOS-Playground.preview.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,9 @@
 				2C8E115E0C8ECA70DB6FFA03 /* Pods-iOS-PlaygroundTests.release.xcconfig */,
 				75D53CD82F76716C6D7E501D /* Pods-iOS-PlaygroundUITests.debug.xcconfig */,
 				66BE0B75B40C5D563FA772E8 /* Pods-iOS-PlaygroundUITests.release.xcconfig */,
+				F83D23237022D0E0E5B31C8E /* Pods-iOS-Playground.preview.xcconfig */,
+				2C7BDEEB35C0FDD2E5BE731D /* Pods-iOS-PlaygroundTests.preview.xcconfig */,
+				3BB8B7771CA5AEF455033C60 /* Pods-iOS-PlaygroundUITests.preview.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -584,15 +590,12 @@
 		};
 		C207C277209011C500051F1A /* Preview */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B1F403C1D4359D5E2EFD790 /* Pods-iOS-Playground.release.xcconfig */;
+			baseConfigurationReference = F83D23237022D0E0E5B31C8E /* Pods-iOS-Playground.preview.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-Playground/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-Playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -602,17 +605,13 @@
 		};
 		C207C278209011C500051F1A /* Preview */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C8E115E0C8ECA70DB6FFA03 /* Pods-iOS-PlaygroundTests.release.xcconfig */;
+			baseConfigurationReference = 2C7BDEEB35C0FDD2E5BE731D /* Pods-iOS-PlaygroundTests.preview.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -623,16 +622,12 @@
 		};
 		C207C279209011C500051F1A /* Preview */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66BE0B75B40C5D563FA772E8 /* Pods-iOS-PlaygroundUITests.release.xcconfig */;
+			baseConfigurationReference = 3BB8B7771CA5AEF455033C60 /* Pods-iOS-PlaygroundUITests.preview.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -762,10 +757,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-Playground/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-Playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -780,10 +772,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-Playground/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-Playground";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -799,11 +788,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -820,11 +805,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -840,11 +821,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -860,11 +837,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS-PlaygroundUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lobsterteam.iOS-PlaygroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
