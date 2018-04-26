@@ -12,6 +12,7 @@
 		7FFAB09B8D52C0B0CDAAA600 /* Pods_iOS_PlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBE53CBB6B4DB81491D55805 /* Pods_iOS_PlaygroundUITests.framework */; };
 		C207C26F208E055A00051F1A /* L.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C26E208E055A00051F1A /* L.swift */; };
 		C20D51A52091A450007458B3 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A42091A450007458B3 /* RatingControl.swift */; };
+		C20D51A72091E180007458B3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A62091E180007458B3 /* Meal.swift */; };
 		C2E5123B2088994300125547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123A2088994300125547 /* AppDelegate.swift */; };
 		C2E5123D2088994300125547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123C2088994300125547 /* ViewController.swift */; };
 		C2E512402088994300125547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5123E2088994300125547 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		8C89A1A228D748389586E94D /* Pods_iOS_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C207C26E208E055A00051F1A /* L.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L.swift; sourceTree = "<group>"; };
 		C20D51A42091A450007458B3 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		C20D51A62091E180007458B3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C2E512372088994300125547 /* iOS-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5123A2088994300125547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E5123C2088994300125547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				C207C26D208E054500051F1A /* Utils */,
 				C2E5123A2088994300125547 /* AppDelegate.swift */,
 				C2E5123C2088994300125547 /* ViewController.swift */,
+				C20D51A62091E180007458B3 /* Meal.swift */,
 				C20D51A42091A450007458B3 /* RatingControl.swift */,
 				C2E5123E2088994300125547 /* Main.storyboard */,
 				C2E512442088994500125547 /* Assets.xcassets */,
@@ -496,6 +499,7 @@
 				C2E512432088994300125547 /* iOS_Playground.xcdatamodeld in Sources */,
 				C207C26F208E055A00051F1A /* L.swift in Sources */,
 				C20D51A52091A450007458B3 /* RatingControl.swift in Sources */,
+				C20D51A72091E180007458B3 /* Meal.swift in Sources */,
 				C2E5123B2088994300125547 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
