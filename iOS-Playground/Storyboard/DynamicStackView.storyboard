@@ -10,25 +10,58 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Dynamic Stack View View Controller-->
         <scene sceneID="0c6-un-DcV">
             <objects>
-                <viewController id="Q5j-mJ-GNK" sceneMemberID="viewController">
+                <viewController id="Q5j-mJ-GNK" customClass="DynamicStackViewViewController" customModule="iOS_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CpZ-tq-STz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dynamic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDC-CW-fDz">
-                                <rect key="frame" x="161" y="323" width="67" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tao-CU-jUF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Jeh-ei-icn">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0U-Vy-jtR">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="bsM-nI-Cfl"/>
+                                                </constraints>
+                                                <state key="normal" title="Add Item"/>
+                                                <connections>
+                                                    <action selector="addEntry:" destination="Q5j-mJ-GNK" eventType="touchUpInside" id="hVm-UV-O7V"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="nnA-ss-7p8"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Jeh-ei-icn" firstAttribute="top" secondItem="tao-CU-jUF" secondAttribute="top" id="2A7-Pb-dbT"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jeh-ei-icn" secondAttribute="bottom" id="Odt-gF-5X3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Jeh-ei-icn" secondAttribute="trailing" id="TPe-Uo-V73"/>
+                                    <constraint firstItem="Jeh-ei-icn" firstAttribute="width" secondItem="tao-CU-jUF" secondAttribute="width" id="bjj-1B-WD4"/>
+                                    <constraint firstItem="Jeh-ei-icn" firstAttribute="leading" secondItem="tao-CU-jUF" secondAttribute="leading" id="gxc-oW-y9N"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SjV-3c-PNZ" firstAttribute="trailing" secondItem="tao-CU-jUF" secondAttribute="trailing" id="2AL-Ra-HmD"/>
+                            <constraint firstItem="SjV-3c-PNZ" firstAttribute="bottom" secondItem="tao-CU-jUF" secondAttribute="bottom" id="8uy-4K-UwC"/>
+                            <constraint firstItem="tao-CU-jUF" firstAttribute="top" secondItem="SjV-3c-PNZ" secondAttribute="top" id="OMr-CK-Rog"/>
+                            <constraint firstItem="tao-CU-jUF" firstAttribute="leading" secondItem="SjV-3c-PNZ" secondAttribute="leading" id="ltf-fL-1f6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SjV-3c-PNZ"/>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="tao-CU-jUF" id="odI-yg-Sjh"/>
+                        <outlet property="stackView" destination="Jeh-ei-icn" id="stQ-RD-Fby"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rcD-y5-ueE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

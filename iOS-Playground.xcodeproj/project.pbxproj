@@ -14,6 +14,7 @@
 		C208093120A4145F00295F46 /* SingleStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093020A4145F00295F46 /* SingleStackView.storyboard */; };
 		C208093420A414DB00295F46 /* NestedStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093320A414DB00295F46 /* NestedStackView.storyboard */; };
 		C208093920A42D9500295F46 /* DynamicStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093820A42D9500295F46 /* DynamicStackView.storyboard */; };
+		C208093B20A42F1000295F46 /* DynamicStackViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */; };
 		C20D51A52091A450007458B3 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A42091A450007458B3 /* RatingControl.swift */; };
 		C20D51A72091E180007458B3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A62091E180007458B3 /* Meal.swift */; };
 		C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */; };
@@ -59,6 +60,7 @@
 		C208093020A4145F00295F46 /* SingleStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SingleStackView.storyboard; sourceTree = "<group>"; };
 		C208093320A414DB00295F46 /* NestedStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NestedStackView.storyboard; sourceTree = "<group>"; };
 		C208093820A42D9500295F46 /* DynamicStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DynamicStackView.storyboard; sourceTree = "<group>"; };
+		C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStackViewViewController.swift; sourceTree = "<group>"; };
 		C20D51A42091A450007458B3 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		C20D51A62091E180007458B3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				C2E5123C2088994300125547 /* MealViewController.swift */,
 				C20D51A42091A450007458B3 /* RatingControl.swift */,
 				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
+				C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				C2E5123D2088994300125547 /* MealViewController.swift in Sources */,
 				C2E512432088994300125547 /* iOS_Playground.xcdatamodeld in Sources */,
 				C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */,
+				C208093B20A42F1000295F46 /* DynamicStackViewViewController.swift in Sources */,
 				C207C26F208E055A00051F1A /* L.swift in Sources */,
 				C20D51A52091A450007458B3 /* RatingControl.swift in Sources */,
 				C20D51A72091E180007458B3 /* Meal.swift in Sources */,
