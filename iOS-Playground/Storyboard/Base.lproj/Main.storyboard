@@ -172,7 +172,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wkc-O1-1yZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="126"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="166"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4f-Dx-9zm">
                                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
@@ -193,6 +193,13 @@
                                                 <state key="normal" title="Cookbook ex2"/>
                                                 <connections>
                                                     <segue destination="AzK-0Y-qUS" kind="show" id="Cap-oH-fOq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCz-CP-zn6">
+                                                <rect key="frame" x="8" y="128" width="359" height="30"/>
+                                                <state key="normal" title="Cookbook - Dynamic Stack View"/>
+                                                <connections>
+                                                    <segue destination="ATH-j5-KI6" kind="show" id="CfT-y1-Ujg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -265,7 +272,7 @@
                 <viewControllerPlaceholder storyboardName="SingleStackView" id="mNs-nM-LT4" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jF7-Nv-GZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-179" y="884"/>
+            <point key="canvasLocation" x="-218" y="851"/>
         </scene>
         <!--NestedStackView-->
         <scene sceneID="ppP-kI-hDe">
@@ -273,7 +280,15 @@
                 <viewControllerPlaceholder storyboardName="NestedStackView" id="AzK-0Y-qUS" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFO-Dq-x8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="211" y="851"/>
+            <point key="canvasLocation" x="20" y="851"/>
+        </scene>
+        <!--DynamicStackView-->
+        <scene sceneID="3rH-hK-fSS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DynamicStackView" id="ATH-j5-KI6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1A-JS-0Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="278" y="851"/>
         </scene>
     </scenes>
     <resources>

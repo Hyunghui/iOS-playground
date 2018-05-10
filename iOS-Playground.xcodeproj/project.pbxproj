@@ -13,6 +13,7 @@
 		C207C26F208E055A00051F1A /* L.swift in Sources */ = {isa = PBXBuildFile; fileRef = C207C26E208E055A00051F1A /* L.swift */; };
 		C208093120A4145F00295F46 /* SingleStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093020A4145F00295F46 /* SingleStackView.storyboard */; };
 		C208093420A414DB00295F46 /* NestedStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093320A414DB00295F46 /* NestedStackView.storyboard */; };
+		C208093920A42D9500295F46 /* DynamicStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C208093820A42D9500295F46 /* DynamicStackView.storyboard */; };
 		C20D51A52091A450007458B3 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A42091A450007458B3 /* RatingControl.swift */; };
 		C20D51A72091E180007458B3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A62091E180007458B3 /* Meal.swift */; };
 		C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */; };
@@ -57,6 +58,7 @@
 		C207C26E208E055A00051F1A /* L.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L.swift; sourceTree = "<group>"; };
 		C208093020A4145F00295F46 /* SingleStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SingleStackView.storyboard; sourceTree = "<group>"; };
 		C208093320A414DB00295F46 /* NestedStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NestedStackView.storyboard; sourceTree = "<group>"; };
+		C208093820A42D9500295F46 /* DynamicStackView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DynamicStackView.storyboard; sourceTree = "<group>"; };
 		C20D51A42091A450007458B3 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		C20D51A62091E180007458B3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
@@ -145,12 +147,23 @@
 		C208093220A4147700295F46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C208093820A42D9500295F46 /* DynamicStackView.storyboard */,
 				C208093320A414DB00295F46 /* NestedStackView.storyboard */,
 				C208093020A4145F00295F46 /* SingleStackView.storyboard */,
 				C2E5123E2088994300125547 /* Main.storyboard */,
 				C2E512462088994500125547 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C208093520A42A1C00295F46 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C2E5123C2088994300125547 /* MealViewController.swift */,
+				C20D51A42091A450007458B3 /* RatingControl.swift */,
+				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		C2E5122E2088994300125547 = {
@@ -178,14 +191,12 @@
 		C2E512392088994300125547 /* iOS-Playground */ = {
 			isa = PBXGroup;
 			children = (
+				C208093520A42A1C00295F46 /* Scene */,
 				C208093220A4147700295F46 /* Storyboard */,
 				C207C26D208E054500051F1A /* Utils */,
 				C2E5123A2088994300125547 /* AppDelegate.swift */,
-				C2E5123C2088994300125547 /* MealViewController.swift */,
 				C20D51A62091E180007458B3 /* Meal.swift */,
-				C20D51A42091A450007458B3 /* RatingControl.swift */,
 				C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */,
-				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
 				C2E512442088994500125547 /* Assets.xcassets */,
 				C2E512492088994500125547 /* Info.plist */,
 				C2E512412088994300125547 /* iOS_Playground.xcdatamodeld */,
@@ -329,6 +340,7 @@
 				C2E512482088994500125547 /* LaunchScreen.storyboard in Resources */,
 				C2E512452088994500125547 /* Assets.xcassets in Resources */,
 				C2E512402088994300125547 /* Main.storyboard in Resources */,
+				C208093920A42D9500295F46 /* DynamicStackView.storyboard in Resources */,
 				C208093420A414DB00295F46 /* NestedStackView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
