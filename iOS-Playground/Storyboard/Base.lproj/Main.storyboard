@@ -218,7 +218,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uci-g6-Ad3">
                                                 <rect key="frame" x="8" y="248" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Two Equal Width Views"/>
+                                                <connections>
+                                                    <segue destination="Q9a-ev-tRz" kind="show" id="CuM-9s-hhe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsU-9M-09I">
                                                 <rect key="frame" x="8" y="288" width="359" height="30"/>
@@ -359,6 +362,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rup-PK-MnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="69" y="613"/>
+        </scene>
+        <!--TwoEqualWidthViews-->
+        <scene sceneID="dxQ-Vj-Kbt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TwoEqualWidthViews" id="Q9a-ev-tRz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="idI-iJ-dpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="613"/>
         </scene>
     </scenes>
     <resources>
