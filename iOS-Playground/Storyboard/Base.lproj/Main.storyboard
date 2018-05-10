@@ -225,7 +225,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsU-9M-09I">
                                                 <rect key="frame" x="8" y="288" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Two Different Width Views"/>
+                                                <connections>
+                                                    <segue destination="1Vv-jd-Xu3" kind="show" id="113-eD-T9Z"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjc-wb-0aa">
                                                 <rect key="frame" x="8" y="328" width="359" height="30"/>
@@ -370,6 +373,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="idI-iJ-dpI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="338" y="613"/>
+        </scene>
+        <!--TwoDifferentWidthViews-->
+        <scene sceneID="cKW-1n-lkG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TwoDifferentWidthViews" id="1Vv-jd-Xu3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBX-9j-Umf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="613"/>
         </scene>
     </scenes>
     <resources>

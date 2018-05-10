@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cLY-BM-QGO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="XTQ-Ov-MeH">
+            <objects>
+                <viewController id="cLY-BM-QGO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oqV-xU-iYa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ck8-7S-BGm">
+                                <rect key="frame" x="130.5" y="20" width="244.5" height="647"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-ly-gfD">
+                                <rect key="frame" x="0.0" y="20" width="122.5" height="647"/>
+                                <color key="backgroundColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vAG-ly-gfD" firstAttribute="width" secondItem="Ck8-7S-BGm" secondAttribute="width" multiplier="1:2" id="6aP-uD-E1a"/>
+                            <constraint firstItem="HCN-Ek-Vkr" firstAttribute="bottom" secondItem="Ck8-7S-BGm" secondAttribute="bottom" id="Btg-pp-CsV"/>
+                            <constraint firstItem="Ck8-7S-BGm" firstAttribute="top" secondItem="HCN-Ek-Vkr" secondAttribute="top" id="KKc-KM-1eE"/>
+                            <constraint firstItem="Ck8-7S-BGm" firstAttribute="leading" secondItem="vAG-ly-gfD" secondAttribute="trailing" constant="8" id="W76-u2-eIQ"/>
+                            <constraint firstItem="HCN-Ek-Vkr" firstAttribute="bottom" secondItem="vAG-ly-gfD" secondAttribute="bottom" id="Xqd-lc-DCv"/>
+                            <constraint firstAttribute="trailing" secondItem="Ck8-7S-BGm" secondAttribute="trailing" id="c1i-ic-Yja"/>
+                            <constraint firstItem="vAG-ly-gfD" firstAttribute="top" secondItem="HCN-Ek-Vkr" secondAttribute="top" id="o6B-9c-Vi5"/>
+                            <constraint firstItem="vAG-ly-gfD" firstAttribute="leading" secondItem="oqV-xU-iYa" secondAttribute="leading" id="sdf-nh-X8x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HCN-Ek-Vkr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENf-Pm-Taz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="769" y="608"/>
+        </scene>
+    </scenes>
+</document>
