@@ -211,7 +211,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwD-8m-qPF">
                                                 <rect key="frame" x="8" y="208" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Adaptive Single View"/>
+                                                <connections>
+                                                    <segue destination="hBE-hF-dYy" kind="show" id="7W8-Sj-h4I"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uci-g6-Ad3">
                                                 <rect key="frame" x="8" y="248" width="359" height="30"/>
@@ -323,7 +326,7 @@
                 <viewControllerPlaceholder storyboardName="SingleStackView" id="mNs-nM-LT4" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jF7-Nv-GZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-218" y="851"/>
+            <point key="canvasLocation" x="-185" y="569"/>
         </scene>
         <!--NestedStackView-->
         <scene sceneID="ppP-kI-hDe">
@@ -331,7 +334,7 @@
                 <viewControllerPlaceholder storyboardName="NestedStackView" id="AzK-0Y-qUS" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFO-Dq-x8J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="851"/>
+            <point key="canvasLocation" x="46" y="569"/>
         </scene>
         <!--DynamicStackView-->
         <scene sceneID="3rH-hK-fSS">
@@ -339,7 +342,7 @@
                 <viewControllerPlaceholder storyboardName="DynamicStackView" id="ATH-j5-KI6" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1A-JS-0Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="851"/>
+            <point key="canvasLocation" x="286" y="569"/>
         </scene>
         <!--SimpleSingleView-->
         <scene sceneID="3wD-MX-OrN">
@@ -347,7 +350,15 @@
                 <viewControllerPlaceholder storyboardName="SimpleSingleView" id="1Dy-dk-rAU" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puJ-4U-Imq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="740" y="833"/>
+            <point key="canvasLocation" x="-179" y="614"/>
+        </scene>
+        <!--AdaptiveSingleView-->
+        <scene sceneID="KKz-wj-auH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AdaptiveSingleView" id="hBE-hF-dYy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rup-PK-MnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69" y="613"/>
         </scene>
     </scenes>
     <resources>
