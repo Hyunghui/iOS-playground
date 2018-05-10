@@ -232,7 +232,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjc-wb-0aa">
                                                 <rect key="frame" x="8" y="328" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Two Views with Complex Widths"/>
+                                                <connections>
+                                                    <segue destination="uO8-cm-wrU" kind="show" id="na4-Su-Ia7"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQB-UZ-QXp">
                                                 <rect key="frame" x="8" y="368" width="359" height="30"/>
@@ -381,6 +384,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBX-9j-Umf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="646" y="613"/>
+        </scene>
+        <!--TwoViewsWithComplexWidths-->
+        <scene sceneID="X0a-lp-kNj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TwoViewsWithComplexWidths" id="uO8-cm-wrU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48m-rX-Kyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="855" y="599"/>
         </scene>
     </scenes>
     <resources>

@@ -23,6 +23,7 @@
 		C2B33CCC20A44A5100156F74 /* AdaptiveSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */; };
 		C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */; };
 		C2B33CD020A4514500156F74 /* TwoDifferentWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCF20A4514500156F74 /* TwoDifferentWidthViews.storyboard */; };
+		C2B33CD320A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CD220A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard */; };
 		C2E5123B2088994300125547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123A2088994300125547 /* AppDelegate.swift */; };
 		C2E5123D2088994300125547 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123C2088994300125547 /* MealViewController.swift */; };
 		C2E512402088994300125547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5123E2088994300125547 /* Main.storyboard */; };
@@ -73,6 +74,7 @@
 		C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdaptiveSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthViews.storyboard; sourceTree = "<group>"; };
 		C2B33CCF20A4514500156F74 /* TwoDifferentWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoDifferentWidthViews.storyboard; sourceTree = "<group>"; };
+		C2B33CD220A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoViewsWithComplexWidths.storyboard; sourceTree = "<group>"; };
 		C2E512372088994300125547 /* iOS-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5123A2088994300125547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E5123C2088994300125547 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		C208093220A4147700295F46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CD220A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard */,
 				C2B33CCF20A4514500156F74 /* TwoDifferentWidthViews.storyboard */,
 				C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */,
 				C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */,
@@ -357,6 +360,7 @@
 				C2E512402088994300125547 /* Main.storyboard in Resources */,
 				C208093920A42D9500295F46 /* DynamicStackView.storyboard in Resources */,
 				C2B33CCA20A4493200156F74 /* SimpleSingleView.storyboard in Resources */,
+				C2B33CD320A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard in Resources */,
 				C2B33CD020A4514500156F74 /* TwoDifferentWidthViews.storyboard in Resources */,
 				C208093420A414DB00295F46 /* NestedStackView.storyboard in Resources */,
 				C2B33CCC20A44A5100156F74 /* AdaptiveSingleView.storyboard in Resources */,
