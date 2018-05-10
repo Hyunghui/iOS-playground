@@ -172,7 +172,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wkc-O1-1yZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="166"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="646"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4f-Dx-9zm">
                                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
@@ -201,6 +201,57 @@
                                                 <connections>
                                                     <segue destination="ATH-j5-KI6" kind="show" id="CfT-y1-Ujg"/>
                                                 </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEs-fS-lCK">
+                                                <rect key="frame" x="8" y="168" width="359" height="30"/>
+                                                <state key="normal" title="SimpleSingleView"/>
+                                                <connections>
+                                                    <segue destination="1Dy-dk-rAU" kind="show" id="Ycq-Yy-M4W"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwD-8m-qPF">
+                                                <rect key="frame" x="8" y="208" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uci-g6-Ad3">
+                                                <rect key="frame" x="8" y="248" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsU-9M-09I">
+                                                <rect key="frame" x="8" y="288" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kjc-wb-0aa">
+                                                <rect key="frame" x="8" y="328" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQB-UZ-QXp">
+                                                <rect key="frame" x="8" y="368" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39s-S3-wRQ">
+                                                <rect key="frame" x="8" y="408" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bes-5e-Vql">
+                                                <rect key="frame" x="8" y="448" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjY-hp-rhP">
+                                                <rect key="frame" x="8" y="488" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPK-ih-Xhr">
+                                                <rect key="frame" x="8" y="528" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-aE-QM1">
+                                                <rect key="frame" x="8" y="568" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jiq-LN-kPp">
+                                                <rect key="frame" x="8" y="608" width="359" height="30"/>
+                                                <state key="normal" title="Button"/>
                                             </button>
                                         </subviews>
                                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
@@ -289,6 +340,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1A-JS-0Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="278" y="851"/>
+        </scene>
+        <!--SimpleSingleView-->
+        <scene sceneID="3wD-MX-OrN">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SimpleSingleView" id="1Dy-dk-rAU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="puJ-4U-Imq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="740" y="833"/>
         </scene>
     </scenes>
     <resources>
