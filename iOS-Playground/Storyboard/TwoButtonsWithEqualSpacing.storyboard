@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oaq-rS-s95">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rAc-a4-Rc1">
+            <objects>
+                <viewController id="oaq-rS-s95" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mLe-bm-oDs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7f-YJ-uxw">
+                                <rect key="frame" x="10" y="627" width="182.5" height="30"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Short Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLk-jr-Y8y">
+                                <rect key="frame" x="192.5" y="627" width="182.5" height="30"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Much Longer 2314123123123Button Title1123123"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XzY-Vc-4ul">
+                                <rect key="frame" x="10" y="657" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="pR5-p9-LbJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-ZR-gki">
+                                <rect key="frame" x="192.5" y="657" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="zd3-lt-ebg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPm-fv-Q7f">
+                                <rect key="frame" x="375" y="657" width="0.0" height="0.0"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="BWU-gJ-4lD"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7BA-f0-ezL">
+                                <rect key="frame" x="10" y="30" width="355" height="587"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">NOTE
+
+Dummy views can add a significant cost to your layout, so you should use them judiciously. If these views are large, their graphic context can consume a considerable amount of memory, even though they don’t contain any meaningful information.
+
+Additionally, these views participate in the view hierarchy’s responder chain. This means they respond to messages, like hit testing, that are sent along the responder chain. If not handled carefully, these views can intercept and respond to these messages, creating hard-to-find bugs.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="M7f-YJ-uxw" firstAttribute="leading" secondItem="XzY-Vc-4ul" secondAttribute="trailing" id="2Ec-E5-J8n"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="bottom" secondItem="XzY-Vc-4ul" secondAttribute="bottom" constant="10" id="2hh-qH-DpZ"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="bottom" secondItem="M7f-YJ-uxw" secondAttribute="bottom" constant="10" id="Bjp-yP-j5K"/>
+                            <constraint firstItem="7BA-f0-ezL" firstAttribute="top" secondItem="6Ts-c1-zcE" secondAttribute="top" constant="10" id="GWe-2W-ArM"/>
+                            <constraint firstItem="NLk-jr-Y8y" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="M7f-YJ-uxw" secondAttribute="trailing" id="HTJ-mw-Iu5"/>
+                            <constraint firstItem="XzY-Vc-4ul" firstAttribute="leading" secondItem="6Ts-c1-zcE" secondAttribute="leading" constant="10" id="Hgb-qa-kda"/>
+                            <constraint firstItem="WPd-ZR-gki" firstAttribute="leading" secondItem="M7f-YJ-uxw" secondAttribute="trailing" id="HlU-wA-EkL"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="bottom" secondItem="WPd-ZR-gki" secondAttribute="bottom" constant="10" id="Jrk-tI-KTb"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="bottom" secondItem="NLk-jr-Y8y" secondAttribute="bottom" constant="10" id="QD2-ny-hk2"/>
+                            <constraint firstItem="bPm-fv-Q7f" firstAttribute="leading" secondItem="NLk-jr-Y8y" secondAttribute="trailing" id="TTw-3U-WBK"/>
+                            <constraint firstItem="bPm-fv-Q7f" firstAttribute="width" secondItem="XzY-Vc-4ul" secondAttribute="width" id="Tnu-KP-eRL"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="trailing" secondItem="7BA-f0-ezL" secondAttribute="trailing" constant="10" id="UVs-rw-GrP"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="bottom" secondItem="bPm-fv-Q7f" secondAttribute="bottom" constant="10" id="e7z-gk-4Io"/>
+                            <constraint firstItem="bPm-fv-Q7f" firstAttribute="trailing" secondItem="6Ts-c1-zcE" secondAttribute="trailing" id="iMM-If-Irc"/>
+                            <constraint firstItem="NLk-jr-Y8y" firstAttribute="leading" secondItem="WPd-ZR-gki" secondAttribute="trailing" id="kny-IT-VIp"/>
+                            <constraint firstItem="7BA-f0-ezL" firstAttribute="leading" secondItem="6Ts-c1-zcE" secondAttribute="leading" constant="10" id="luo-xP-nSg"/>
+                            <constraint firstItem="NLk-jr-Y8y" firstAttribute="width" secondItem="M7f-YJ-uxw" secondAttribute="width" id="oYn-1W-nzQ"/>
+                            <constraint firstItem="M7f-YJ-uxw" firstAttribute="top" secondItem="7BA-f0-ezL" secondAttribute="bottom" constant="10" id="raC-fo-8rx"/>
+                            <constraint firstItem="6Ts-c1-zcE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NLk-jr-Y8y" secondAttribute="trailing" id="t3D-1v-Mbt"/>
+                            <constraint firstItem="WPd-ZR-gki" firstAttribute="width" secondItem="XzY-Vc-4ul" secondAttribute="width" id="tPE-nx-Cm8"/>
+                            <constraint firstItem="M7f-YJ-uxw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Ts-c1-zcE" secondAttribute="leading" id="zVP-L5-xXE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Ts-c1-zcE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZG2-at-oh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="456.52173913043481"/>
+        </scene>
+    </scenes>
+</document>

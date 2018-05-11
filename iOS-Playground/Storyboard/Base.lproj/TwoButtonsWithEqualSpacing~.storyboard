@@ -283,7 +283,7 @@
                                                 <rect key="frame" x="8" y="608" width="359" height="30"/>
                                                 <state key="normal" title="Two Buttons with Equal Spacing"/>
                                                 <connections>
-                                                    <segue destination="D64-Iz-8nJ" kind="show" id="Iqa-eg-ZA4"/>
+                                                    <segue destination="oaq-rS-s95" kind="show" id="Iqa-eg-ZA4"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loh-cD-6Pf">
@@ -471,6 +471,21 @@
             </objects>
             <point key="canvasLocation" x="430" y="664"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rAc-a4-Rc1">
+            <objects>
+                <viewController id="oaq-rS-s95" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mLe-bm-oDs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Ts-c1-zcE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZG2-at-oh5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="457"/>
+        </scene>
         <!--ThreeEqualWidthButtons-->
         <scene sceneID="43k-M0-uRu">
             <objects>
@@ -478,14 +493,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIY-a6-wj4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="732" y="493"/>
-        </scene>
-        <!--TwoButtonsWithEqualSpacing-->
-        <scene sceneID="EOm-Wc-nRh">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TwoButtonsWithEqualSpacing" id="D64-Iz-8nJ" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wfi-7F-KPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="988" y="457"/>
         </scene>
     </scenes>
     <resources>

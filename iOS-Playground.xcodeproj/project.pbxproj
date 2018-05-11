@@ -30,6 +30,7 @@
 		C2B33CDC20A5552500156F74 /* DynamicHeightColumns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CDB20A5552500156F74 /* DynamicHeightColumns.storyboard */; };
 		C2B33CDE20A5729200156F74 /* TwoEqualWidthButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CDD20A5729200156F74 /* TwoEqualWidthButtons.storyboard */; };
 		C2B33CE020A5774700156F74 /* ThreeEqualWidthButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CDF20A5774700156F74 /* ThreeEqualWidthButtons.storyboard */; };
+		C2B33CE220A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CE120A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard */; };
 		C2E5123B2088994300125547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123A2088994300125547 /* AppDelegate.swift */; };
 		C2E5123D2088994300125547 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123C2088994300125547 /* MealViewController.swift */; };
 		C2E512402088994300125547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5123E2088994300125547 /* Main.storyboard */; };
@@ -87,6 +88,7 @@
 		C2B33CDB20A5552500156F74 /* DynamicHeightColumns.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DynamicHeightColumns.storyboard; sourceTree = "<group>"; };
 		C2B33CDD20A5729200156F74 /* TwoEqualWidthButtons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthButtons.storyboard; sourceTree = "<group>"; };
 		C2B33CDF20A5774700156F74 /* ThreeEqualWidthButtons.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThreeEqualWidthButtons.storyboard; sourceTree = "<group>"; };
+		C2B33CE120A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoButtonsWithEqualSpacing.storyboard; sourceTree = "<group>"; };
 		C2E512372088994300125547 /* iOS-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5123A2088994300125547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E5123C2088994300125547 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		C208093220A4147700295F46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CE120A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard */,
 				C2B33CDF20A5774700156F74 /* ThreeEqualWidthButtons.storyboard */,
 				C2B33CDD20A5729200156F74 /* TwoEqualWidthButtons.storyboard */,
 				C2B33CDB20A5552500156F74 /* DynamicHeightColumns.storyboard */,
@@ -380,6 +383,7 @@
 				C208093920A42D9500295F46 /* DynamicStackView.storyboard in Resources */,
 				C2B33CCA20A4493200156F74 /* SimpleSingleView.storyboard in Resources */,
 				C2B33CDE20A5729200156F74 /* TwoEqualWidthButtons.storyboard in Resources */,
+				C2B33CE220A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard in Resources */,
 				C2B33CDC20A5552500156F74 /* DynamicHeightColumns.storyboard in Resources */,
 				C2B33CD320A454BD00156F74 /* TwoViewsWithComplexWidths.storyboard in Resources */,
 				C2B33CD820A5429600156F74 /* DynamicHeightLabelAndTextField.storyboard in Resources */,
