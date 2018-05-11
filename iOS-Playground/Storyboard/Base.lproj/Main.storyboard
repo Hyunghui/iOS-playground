@@ -97,7 +97,7 @@
                 <viewControllerPlaceholder storyboardName="Swift" id="77u-DJ-rML" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="woN-ME-ZAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-910" y="826"/>
+            <point key="canvasLocation" x="-243" y="125"/>
         </scene>
         <!--AutoLayout-->
         <scene sceneID="3rv-bl-3Fg">
@@ -105,7 +105,7 @@
                 <viewControllerPlaceholder storyboardName="AutoLayout" id="igf-G4-zuX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cbv-Ih-Uu5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81" y="29"/>
+            <point key="canvasLocation" x="-213" y="81"/>
         </scene>
         <!--Demo-->
         <scene sceneID="IR8-j4-aMN">
@@ -113,7 +113,7 @@
                 <viewControllerPlaceholder storyboardName="Demo" id="e8Q-55-Iz2" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Vn-ys-uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="455" y="99"/>
+            <point key="canvasLocation" x="-241" y="36"/>
         </scene>
     </scenes>
 </document>

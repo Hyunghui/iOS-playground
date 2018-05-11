@@ -26,7 +26,10 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fer-lw-s3Z">
                                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="SwiftTest1"/>
+                                                <connections>
+                                                    <segue destination="OTN-1l-IT8" kind="show" id="36v-uK-IMe"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ll-hq-W1U">
                                                 <rect key="frame" x="8" y="46" width="359" height="30"/>
@@ -102,6 +105,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BBh-dA-7lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-910" y="826"/>
+        </scene>
+        <!--Swift Test1 View Controller-->
+        <scene sceneID="5ec-2A-Dzb">
+            <objects>
+                <viewController id="OTN-1l-IT8" customClass="SwiftTest1ViewController" customModule="iOS_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ae2-XH-7Z4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dh-XE-VP4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8Dh-XE-VP4" firstAttribute="leading" secondItem="ojn-te-U8a" secondAttribute="leading" id="JKI-7H-phN"/>
+                            <constraint firstItem="8Dh-XE-VP4" firstAttribute="top" secondItem="ojn-te-U8a" secondAttribute="top" id="Lzn-jn-GAu"/>
+                            <constraint firstItem="ojn-te-U8a" firstAttribute="trailing" secondItem="8Dh-XE-VP4" secondAttribute="trailing" id="NSQ-yC-lCS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ojn-te-U8a"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelResult" destination="8Dh-XE-VP4" id="w1g-RJ-zNo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2uF-Vc-HtM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="825"/>
         </scene>
     </scenes>
 </document>
