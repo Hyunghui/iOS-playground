@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mSI-lK-hUZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="RIE-i2-w8e">
+            <objects>
+                <viewController id="mSI-lK-hUZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jhQ-Bl-b9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Name Label Longgggggggggggggg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5u-GF-zm6">
+                                <rect key="frame" x="10" y="43" width="273" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="textfieldssssssssssssss" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F6g-6q-DFX">
+                                <rect key="frame" x="293" y="40" width="72" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="d5u-GF-zm6" firstAttribute="baseline" secondItem="F6g-6q-DFX" secondAttribute="baseline" id="1As-wy-0Qu"/>
+                            <constraint firstItem="dA6-1k-8PQ" firstAttribute="trailing" secondItem="F6g-6q-DFX" secondAttribute="trailing" constant="10" id="DWV-05-mjE"/>
+                            <constraint firstItem="F6g-6q-DFX" firstAttribute="top" secondItem="dA6-1k-8PQ" secondAttribute="top" constant="20" id="OBh-da-81t"/>
+                            <constraint firstItem="F6g-6q-DFX" firstAttribute="leading" secondItem="d5u-GF-zm6" secondAttribute="trailing" constant="10" id="S4H-mw-uLo"/>
+                            <constraint firstItem="d5u-GF-zm6" firstAttribute="leading" secondItem="dA6-1k-8PQ" secondAttribute="leading" constant="10" id="mEb-Jn-0e2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dA6-1k-8PQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UYy-iv-SYC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541.60000000000002" y="521.28935532233891"/>
+        </scene>
+    </scenes>
+</document>
