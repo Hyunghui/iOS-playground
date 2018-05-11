@@ -197,12 +197,28 @@
 		C208093520A42A1C00295F46 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CE620A59DF100156F74 /* Swift */,
+				C2B33CE520A59DE200156F74 /* Home */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		C2B33CE520A59DE200156F74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				C2E5123C2088994300125547 /* MealViewController.swift */,
 				C20D51A42091A450007458B3 /* RatingControl.swift */,
 				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
 				C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */,
 			);
-			path = Scene;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C2B33CE620A59DF100156F74 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		C2E5122E2088994300125547 = {
