@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ytz-mG-2rh">
-                                <rect key="frame" x="0.0" y="84" width="375" height="410"/>
+                                <rect key="frame" x="0.0" y="84" width="375" height="416"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uwq-Ev-Qw4">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
@@ -39,7 +39,10 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vky-s9-M9a" customClass="RatingControl" customModule="iOS_Playground" customModuleProvider="target">
-                                        <rect key="frame" x="61.5" y="366" width="252" height="44"/>
+                                        <rect key="frame" x="61.5" y="366" width="252" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="WZg-QA-fOy"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -49,6 +52,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ytz-mG-2rh" secondAttribute="bottom" priority="751" id="7fy-ix-gzH"/>
                             <constraint firstItem="ytz-mG-2rh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="U7o-7Q-NJA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ytz-mG-2rh" secondAttribute="trailing" id="X4p-Bu-KT2"/>
                             <constraint firstItem="ytz-mG-2rh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lwq-yV-RDD"/>
@@ -461,7 +465,7 @@
                 <viewControllerPlaceholder storyboardName="DynamicHeightColumns" id="AuS-xM-Uz2" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AD-UT-umB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="460" y="546"/>
+            <point key="canvasLocation" x="728" y="664"/>
         </scene>
         <!--TwoEqualWidthButtons-->
         <scene sceneID="IsD-3H-g9B">
@@ -477,7 +481,7 @@
                 <viewControllerPlaceholder storyboardName="ThreeEqualWidthButtons" id="WPJ-BH-2ge" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WIY-a6-wj4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="732" y="493"/>
+            <point key="canvasLocation" x="1042" y="663"/>
         </scene>
         <!--TwoButtonsWithEqualSpacing-->
         <scene sceneID="EOm-Wc-nRh">
@@ -485,7 +489,7 @@
                 <viewControllerPlaceholder storyboardName="TwoButtonsWithEqualSpacing" id="D64-Iz-8nJ" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wfi-7F-KPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="457"/>
+            <point key="canvasLocation" x="1380" y="663"/>
         </scene>
     </scenes>
     <resources>
