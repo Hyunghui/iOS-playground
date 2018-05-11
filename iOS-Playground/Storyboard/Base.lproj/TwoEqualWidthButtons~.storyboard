@@ -269,7 +269,7 @@
                                                 <rect key="frame" x="8" y="528" width="359" height="30"/>
                                                 <state key="normal" title="Two Equal-Width Buttons"/>
                                                 <connections>
-                                                    <segue destination="Zgd-BP-9sE" kind="show" id="UBA-N1-G25"/>
+                                                    <segue destination="fOd-X3-UIF" kind="show" id="LZo-ca-M0q"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-aE-QM1">
@@ -432,6 +432,21 @@
             </objects>
             <point key="canvasLocation" x="147" y="664"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="A47-gE-Bmz">
+            <objects>
+                <viewController id="fOd-X3-UIF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AIJ-HY-0bj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Nvw-lS-sM9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIh-KJ-IK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="450"/>
+        </scene>
         <!--DynamicHeightColumns-->
         <scene sceneID="8Nw-Xe-3Gw">
             <objects>
@@ -439,14 +454,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AD-UT-umB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="460" y="546"/>
-        </scene>
-        <!--TwoEqualWidthButtons-->
-        <scene sceneID="IsD-3H-g9B">
-            <objects>
-                <viewControllerPlaceholder storyboardName="TwoEqualWidthButtons" id="Zgd-BP-9sE" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6jS-6G-WNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="430" y="664"/>
         </scene>
     </scenes>
     <resources>

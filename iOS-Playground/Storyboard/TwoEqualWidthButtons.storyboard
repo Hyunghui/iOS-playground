@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fOd-X3-UIF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="A47-gE-Bmz">
+            <objects>
+                <viewController id="fOd-X3-UIF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AIJ-HY-0bj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC5-d2-Mw5">
+                                <rect key="frame" x="10" y="627" width="172.5" height="30"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="short"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3zb-bz-s5k">
+                                <rect key="frame" x="192.5" y="627" width="172.5" height="30"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Much Longer Button Title"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nvw-lS-sM9" firstAttribute="bottom" secondItem="RC5-d2-Mw5" secondAttribute="bottom" constant="10" id="1eQ-89-Vac"/>
+                            <constraint firstItem="3zb-bz-s5k" firstAttribute="leading" secondItem="RC5-d2-Mw5" secondAttribute="trailing" constant="10" id="8NF-aQ-b61"/>
+                            <constraint firstItem="RC5-d2-Mw5" firstAttribute="leading" secondItem="Nvw-lS-sM9" secondAttribute="leading" constant="10" id="Hg9-gU-NyH"/>
+                            <constraint firstItem="Nvw-lS-sM9" firstAttribute="bottom" secondItem="3zb-bz-s5k" secondAttribute="bottom" constant="10" id="dxp-iP-Dme"/>
+                            <constraint firstItem="RC5-d2-Mw5" firstAttribute="width" secondItem="3zb-bz-s5k" secondAttribute="width" id="no8-5A-euu"/>
+                            <constraint firstItem="Nvw-lS-sM9" firstAttribute="trailing" secondItem="3zb-bz-s5k" secondAttribute="trailing" constant="10" id="onm-O9-cjp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nvw-lS-sM9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIh-KJ-IK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="450"/>
+        </scene>
+    </scenes>
+</document>
