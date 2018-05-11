@@ -246,7 +246,10 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39s-S3-wRQ">
                                                 <rect key="frame" x="8" y="408" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Dynamic Height Label and Text Field"/>
+                                                <connections>
+                                                    <segue destination="zKx-a6-SqD" kind="show" id="cSE-e2-Gz3"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bes-5e-Vql">
                                                 <rect key="frame" x="8" y="448" width="359" height="30"/>
@@ -403,6 +406,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N5Q-jb-Rmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-143" y="664"/>
+        </scene>
+        <!--DynamicHeightLabelAndTextField-->
+        <scene sceneID="ryM-2x-XXK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DynamicHeightLabelAndTextField" id="zKx-a6-SqD" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ZQ-3B-YcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="776" y="552"/>
         </scene>
     </scenes>
     <resources>
