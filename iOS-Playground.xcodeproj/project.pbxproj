@@ -33,6 +33,7 @@
 		C2B33CE220A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CE120A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard */; };
 		C2B33CEA20A5DA8300156F74 /* Swift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CE920A5DA8300156F74 /* Swift.storyboard */; };
 		C2B33CEC20A5DB5800156F74 /* AutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CEB20A5DB5800156F74 /* AutoLayout.storyboard */; };
+		C2B33CF120A5DCC200156F74 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CF020A5DCC200156F74 /* Demo.storyboard */; };
 		C2E5123B2088994300125547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123A2088994300125547 /* AppDelegate.swift */; };
 		C2E5123D2088994300125547 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123C2088994300125547 /* MealViewController.swift */; };
 		C2E512402088994300125547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5123E2088994300125547 /* Main.storyboard */; };
@@ -93,6 +94,7 @@
 		C2B33CE120A57A3200156F74 /* TwoButtonsWithEqualSpacing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoButtonsWithEqualSpacing.storyboard; sourceTree = "<group>"; };
 		C2B33CE920A5DA8300156F74 /* Swift.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Swift.storyboard; sourceTree = "<group>"; };
 		C2B33CEB20A5DB5800156F74 /* AutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AutoLayout.storyboard; sourceTree = "<group>"; };
+		C2B33CF020A5DCC200156F74 /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		C2E512372088994300125547 /* iOS-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5123A2088994300125547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E5123C2088994300125547 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		C208093220A4147700295F46 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CEF20A5DC8200156F74 /* Demo */,
 				C2B33CE820A5D9F400156F74 /* Swfit */,
 				C2B33CE720A5D9DB00156F74 /* AutoLayout */,
 				C2E5123E2088994300125547 /* Main.storyboard */,
@@ -241,6 +244,15 @@
 				C2B33CE920A5DA8300156F74 /* Swift.storyboard */,
 			);
 			path = Swfit;
+			sourceTree = "<group>";
+		};
+		C2B33CEF20A5DC8200156F74 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C2B33CF020A5DCC200156F74 /* Demo.storyboard */,
+			);
+			name = Demo;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C2E5122E2088994300125547 = {
@@ -433,6 +445,7 @@
 				C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */,
 				C2B33CE020A5774700156F74 /* ThreeEqualWidthButtons.storyboard in Resources */,
 				C2B33CD620A5394A00156F74 /* SimpleLabelAndTextField.storyboard in Resources */,
+				C2B33CF120A5DCC200156F74 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
