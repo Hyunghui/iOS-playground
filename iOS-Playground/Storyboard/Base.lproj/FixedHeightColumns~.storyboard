@@ -255,7 +255,7 @@
                                                 <rect key="frame" x="8" y="448" width="359" height="30"/>
                                                 <state key="normal" title="Fixed Height Columns"/>
                                                 <connections>
-                                                    <segue destination="7GH-RH-Lgu" kind="show" id="Hr9-Pn-RK9"/>
+                                                    <segue destination="G46-J4-7bA" kind="show" id="Hr9-Pn-RK9"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qjY-hp-rhP">
@@ -354,6 +354,21 @@
             </objects>
             <point key="canvasLocation" x="46" y="569"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Lwf-jf-hcX">
+            <objects>
+                <viewController id="G46-J4-7bA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LTc-Wt-6JG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="5NH-Vf-POB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jnm-bK-YHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="464"/>
+        </scene>
         <!--DynamicStackView-->
         <scene sceneID="3rH-hK-fSS">
             <objects>
@@ -417,14 +432,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ZQ-3B-YcI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="776" y="552"/>
-        </scene>
-        <!--FixedHeightColumns-->
-        <scene sceneID="ML2-wT-O6G">
-            <objects>
-                <viewControllerPlaceholder storyboardName="FixedHeightColumns" id="7GH-RH-Lgu" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z38-5C-5fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="564" y="464"/>
         </scene>
     </scenes>
     <resources>
