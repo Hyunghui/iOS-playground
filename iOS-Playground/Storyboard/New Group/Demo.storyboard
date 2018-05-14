@@ -40,9 +40,6 @@
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Vky-s9-M9a" customClass="RatingControl" customModule="iOS_Playground" customModuleProvider="target">
                                         <rect key="frame" x="61.5" y="366" width="252" height="44"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="WZg-QA-fOy"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <constraints>
