@@ -26,14 +26,17 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT0-Fq-X0f">
                                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
-                                                <state key="normal" title="TableView"/>
+                                                <state key="normal" title="Table View"/>
                                                 <connections>
                                                     <segue destination="DGD-3v-ooI" kind="show" id="IVl-eC-MTp"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2K-BO-VuA">
                                                 <rect key="frame" x="8" y="46" width="359" height="30"/>
-                                                <state key="normal" title="Button"/>
+                                                <state key="normal" title="Tab Bar"/>
+                                                <connections>
+                                                    <segue destination="lMs-O3-ur8" kind="show" id="EL4-bK-gQw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYd-xC-24d">
                                                 <rect key="frame" x="8" y="84" width="359" height="30"/>
@@ -89,6 +92,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vrv-mh-o7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="270" y="75"/>
+        </scene>
+        <!--SampleTabBar-->
+        <scene sceneID="Jk0-xw-YzT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SampleTabBar" id="lMs-O3-ur8" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2OT-th-A8z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="15"/>
         </scene>
     </scenes>
 </document>

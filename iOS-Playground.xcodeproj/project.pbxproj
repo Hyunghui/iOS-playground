@@ -22,6 +22,7 @@
 		C29D13BE20A972960013D2DF /* SampleTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D13BD20A972960013D2DF /* SampleTableView.storyboard */; };
 		C29D13C020A9736D0013D2DF /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */; };
 		C29D13C220A973880013D2DF /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13C120A973880013D2DF /* SampleTableViewCell.swift */; };
+		C29D13C520A97EC80013D2DF /* SampleTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D13C420A97EC80013D2DF /* SampleTabBar.storyboard */; };
 		C2B33CCA20A4493200156F74 /* SimpleSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */; };
 		C2B33CCC20A44A5100156F74 /* AdaptiveSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */; };
 		C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */; };
@@ -88,6 +89,7 @@
 		C29D13BD20A972960013D2DF /* SampleTableView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleTableView.storyboard; sourceTree = "<group>"; };
 		C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		C29D13C120A973880013D2DF /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
+		C29D13C420A97EC80013D2DF /* SampleTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleTabBar.storyboard; sourceTree = "<group>"; };
 		C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdaptiveSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthViews.storyboard; sourceTree = "<group>"; };
@@ -198,6 +200,14 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		C29D13C320A97CBE0013D2DF /* SampleTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C29D13C420A97EC80013D2DF /* SampleTabBar.storyboard */,
+			);
+			path = SampleTabBar;
+			sourceTree = "<group>";
+		};
 		C2B33CE520A59DE200156F74 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				C2B33D0120A95D6900156F74 /* UI.storyboard */,
-				C2B33D0520A95E8200156F74 /* TableView */,
+				C2B33D0520A95E8200156F74 /* SampleTableView */,
+				C29D13C320A97CBE0013D2DF /* SampleTabBar */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -258,14 +269,14 @@
 			path = AutoLayout;
 			sourceTree = "<group>";
 		};
-		C2B33D0520A95E8200156F74 /* TableView */ = {
+		C2B33D0520A95E8200156F74 /* SampleTableView */ = {
 			isa = PBXGroup;
 			children = (
 				C29D13BD20A972960013D2DF /* SampleTableView.storyboard */,
 				C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */,
 				C29D13C120A973880013D2DF /* SampleTableViewCell.swift */,
 			);
-			path = TableView;
+			path = SampleTableView;
 			sourceTree = "<group>";
 		};
 		C2E5122E2088994300125547 = {
@@ -443,6 +454,7 @@
 				C208093120A4145F00295F46 /* SingleStackView.storyboard in Resources */,
 				C2B33D0220A95D6900156F74 /* UI.storyboard in Resources */,
 				C2B33CEA20A5DA8300156F74 /* Swift.storyboard in Resources */,
+				C29D13C520A97EC80013D2DF /* SampleTabBar.storyboard in Resources */,
 				C2E512482088994500125547 /* LaunchScreen.storyboard in Resources */,
 				C2E512452088994500125547 /* Assets.xcassets in Resources */,
 				C2E512402088994300125547 /* Main.storyboard in Resources */,
