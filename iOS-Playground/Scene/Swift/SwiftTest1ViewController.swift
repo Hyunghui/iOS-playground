@@ -15,23 +15,26 @@ class SwiftTest1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         labelResult.text = "Hello world"
+        
+        var intA = 1
+        var intB = 2
+        
+        swapTwoInts(&intA, &intB)
+        
+        print("\(intA) \(intB)")
+        labelResult.text = "\(intA) \(intB)"
+        
+    }
+    
+    func swapTwoInts(_ a: inout Int, _ b: inout Int) {
+        let temp = a
+        a = b
+        b = temp
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

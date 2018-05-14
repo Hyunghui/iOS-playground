@@ -35,6 +35,7 @@
 		C2B33CEC20A5DB5800156F74 /* AutoLayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CEB20A5DB5800156F74 /* AutoLayout.storyboard */; };
 		C2B33CF120A5DCC200156F74 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CF020A5DCC200156F74 /* Demo.storyboard */; };
 		C2B33CF720A5E69300156F74 /* SwiftTest1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B33CF620A5E69300156F74 /* SwiftTest1ViewController.swift */; };
+		C2B33D0220A95D6900156F74 /* UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33D0120A95D6900156F74 /* UI.storyboard */; };
 		C2E5123B2088994300125547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123A2088994300125547 /* AppDelegate.swift */; };
 		C2E5123D2088994300125547 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E5123C2088994300125547 /* MealViewController.swift */; };
 		C2E512402088994300125547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E5123E2088994300125547 /* Main.storyboard */; };
@@ -97,6 +98,7 @@
 		C2B33CEB20A5DB5800156F74 /* AutoLayout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AutoLayout.storyboard; sourceTree = "<group>"; };
 		C2B33CF020A5DCC200156F74 /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		C2B33CF620A5E69300156F74 /* SwiftTest1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTest1ViewController.swift; sourceTree = "<group>"; };
+		C2B33D0120A95D6900156F74 /* UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UI.storyboard; sourceTree = "<group>"; };
 		C2E512372088994300125547 /* iOS-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E5123A2088994300125547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E5123C2088994300125547 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -178,21 +180,12 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		C208093220A4147700295F46 /* Storyboard */ = {
-			isa = PBXGroup;
-			children = (
-				C2B33CEF20A5DC8200156F74 /* Demo */,
-				C2B33CE820A5D9F400156F74 /* Swfit */,
-				C2B33CE720A5D9DB00156F74 /* AutoLayout */,
-				C2E5123E2088994300125547 /* Main.storyboard */,
-				C2E512462088994500125547 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboard;
-			sourceTree = "<group>";
-		};
 		C208093520A42A1C00295F46 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CFA20A946B500156F74 /* AutoLayout */,
+				C2B33CF920A946A200156F74 /* Demo */,
+				C2B33CF820A9463600156F74 /* UI */,
 				C2B33CE620A59DF100156F74 /* Swift */,
 				C2B33CE520A59DE200156F74 /* Home */,
 			);
@@ -203,9 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				C2E5123C2088994300125547 /* MealViewController.swift */,
-				C20D51A42091A450007458B3 /* RatingControl.swift */,
-				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
-				C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -213,12 +203,33 @@
 		C2B33CE620A59DF100156F74 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C2B33CE920A5DA8300156F74 /* Swift.storyboard */,
 				C2B33CF620A5E69300156F74 /* SwiftTest1ViewController.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
 		};
-		C2B33CE720A5D9DB00156F74 /* AutoLayout */ = {
+		C2B33CF820A9463600156F74 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C2B33D0120A95D6900156F74 /* UI.storyboard */,
+				C2B33D0520A95E8200156F74 /* TableView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C2B33CF920A946A200156F74 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C2B33CF020A5DCC200156F74 /* Demo.storyboard */,
+				C20D51A42091A450007458B3 /* RatingControl.swift */,
+				C20D51AA2091F70E007458B3 /* MealTableViewController.swift */,
+				C208093A20A42F1000295F46 /* DynamicStackViewViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		C2B33CFA20A946B500156F74 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				C2B33CEB20A5DB5800156F74 /* AutoLayout.storyboard */,
@@ -241,21 +252,11 @@
 			path = AutoLayout;
 			sourceTree = "<group>";
 		};
-		C2B33CE820A5D9F400156F74 /* Swfit */ = {
+		C2B33D0520A95E8200156F74 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				C2B33CE920A5DA8300156F74 /* Swift.storyboard */,
 			);
-			path = Swfit;
-			sourceTree = "<group>";
-		};
-		C2B33CEF20A5DC8200156F74 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				C2B33CF020A5DCC200156F74 /* Demo.storyboard */,
-			);
-			name = Demo;
-			path = "New Group";
+			path = TableView;
 			sourceTree = "<group>";
 		};
 		C2E5122E2088994300125547 = {
@@ -284,8 +285,9 @@
 			isa = PBXGroup;
 			children = (
 				C208093520A42A1C00295F46 /* Scene */,
-				C208093220A4147700295F46 /* Storyboard */,
 				C207C26D208E054500051F1A /* Utils */,
+				C2E5123E2088994300125547 /* Main.storyboard */,
+				C2E512462088994500125547 /* LaunchScreen.storyboard */,
 				C2E5123A2088994300125547 /* AppDelegate.swift */,
 				C20D51A62091E180007458B3 /* Meal.swift */,
 				C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */,
@@ -430,6 +432,7 @@
 			files = (
 				C2B33CDA20A548AA00156F74 /* FixedHeightColumns.storyboard in Resources */,
 				C208093120A4145F00295F46 /* SingleStackView.storyboard in Resources */,
+				C2B33D0220A95D6900156F74 /* UI.storyboard in Resources */,
 				C2B33CEA20A5DA8300156F74 /* Swift.storyboard in Resources */,
 				C2E512482088994500125547 /* LaunchScreen.storyboard in Resources */,
 				C2E512452088994500125547 /* Assets.xcassets in Resources */,
