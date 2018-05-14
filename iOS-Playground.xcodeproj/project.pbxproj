@@ -23,6 +23,7 @@
 		C29D13C020A9736D0013D2DF /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */; };
 		C29D13C220A973880013D2DF /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13C120A973880013D2DF /* SampleTableViewCell.swift */; };
 		C29D13C520A97EC80013D2DF /* SampleTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D13C420A97EC80013D2DF /* SampleTabBar.storyboard */; };
+		C29D13C920A989850013D2DF /* ExProtocol514.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13C820A989850013D2DF /* ExProtocol514.swift */; };
 		C2B33CCA20A4493200156F74 /* SimpleSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */; };
 		C2B33CCC20A44A5100156F74 /* AdaptiveSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */; };
 		C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */; };
@@ -90,6 +91,7 @@
 		C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		C29D13C120A973880013D2DF /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 		C29D13C420A97EC80013D2DF /* SampleTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleTabBar.storyboard; sourceTree = "<group>"; };
+		C29D13C820A989850013D2DF /* ExProtocol514.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExProtocol514.swift; sourceTree = "<group>"; };
 		C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdaptiveSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthViews.storyboard; sourceTree = "<group>"; };
@@ -208,6 +210,14 @@
 			path = SampleTabBar;
 			sourceTree = "<group>";
 		};
+		C29D13C720A9892F0013D2DF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C29D13C820A989850013D2DF /* ExProtocol514.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		C2B33CE520A59DE200156F74 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +229,7 @@
 		C2B33CE620A59DF100156F74 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C29D13C720A9892F0013D2DF /* Protocol */,
 				C2B33CE920A5DA8300156F74 /* Swift.storyboard */,
 				C2B33CF620A5E69300156F74 /* SwiftTest1ViewController.swift */,
 			);
@@ -668,6 +679,7 @@
 				C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */,
 				C208093B20A42F1000295F46 /* DynamicStackViewViewController.swift in Sources */,
 				C207C26F208E055A00051F1A /* L.swift in Sources */,
+				C29D13C920A989850013D2DF /* ExProtocol514.swift in Sources */,
 				C29D13C020A9736D0013D2DF /* SampleTableViewController.swift in Sources */,
 				C20D51A52091A450007458B3 /* RatingControl.swift in Sources */,
 				C20D51A72091E180007458B3 /* Meal.swift in Sources */,
