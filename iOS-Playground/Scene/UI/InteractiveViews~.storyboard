@@ -40,9 +40,9 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYd-xC-24d">
                                                 <rect key="frame" x="8" y="84" width="359" height="30"/>
-                                                <state key="normal" title="Interactive Views"/>
+                                                <state key="normal" title="Segmented Control, Slider, Switch"/>
                                                 <connections>
-                                                    <segue destination="Z5w-rX-cUC" kind="show" id="Vlq-ya-F8f"/>
+                                                    <segue destination="ufj-xg-AEU" kind="show" id="Vlq-ya-F8f"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wop-vO-cto">
@@ -96,6 +96,21 @@
             </objects>
             <point key="canvasLocation" x="270" y="75"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="OCD-mk-FEL">
+            <objects>
+                <viewController id="ufj-xg-AEU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fCU-wF-4vE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="s86-vG-5YP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axG-Ln-kJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2" y="-64"/>
+        </scene>
         <!--SampleTabBar-->
         <scene sceneID="Jk0-xw-YzT">
             <objects>
@@ -103,14 +118,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2OT-th-A8z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="285" y="15"/>
-        </scene>
-        <!--InteractiveViews-->
-        <scene sceneID="tUT-L4-IJB">
-            <objects>
-                <viewControllerPlaceholder storyboardName="InteractiveViews" id="Z5w-rX-cUC" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u3u-Cf-Omv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="266" y="127"/>
         </scene>
     </scenes>
 </document>

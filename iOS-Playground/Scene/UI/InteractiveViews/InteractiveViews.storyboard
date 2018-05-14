@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ufj-xg-AEU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Interaction Views View Controller-->
+        <scene sceneID="OCD-mk-FEL">
+            <objects>
+                <viewController id="ufj-xg-AEU" customClass="InteractionViewsViewController" customModule="iOS_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fCU-wF-4vE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fIm-wd-MKy">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9wz-IZ-KbP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="444"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Segmented Control" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgw-Wq-2im">
+                                                <rect key="frame" x="113" y="8" width="149" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ciG-KJ-XWt">
+                                                <rect key="frame" x="97" y="43.5" width="181" height="29"/>
+                                                <segments>
+                                                    <segment title="Left Button"/>
+                                                    <segment title="Right Button"/>
+                                                </segments>
+                                                <connections>
+                                                    <action selector="segmentChanged:" destination="ufj-xg-AEU" eventType="valueChanged" id="I5d-4t-Sq6"/>
+                                                </connections>
+                                            </segmentedControl>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyG-tK-zZc">
+                                                <rect key="frame" x="165.5" y="86.5" width="44" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="cF9-3m-KQA">
+                                                <rect key="frame" x="6" y="122" width="363" height="31"/>
+                                                <connections>
+                                                    <action selector="sliderValueChanged:" destination="ufj-xg-AEU" eventType="valueChanged" id="81Z-gt-hft"/>
+                                                </connections>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gj1-n5-VRS">
+                                                <rect key="frame" x="133" y="167" width="109.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="98F-LF-vMB">
+                                                <rect key="frame" x="8" y="202.5" width="359" height="2"/>
+                                            </progressView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Switch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYz-yf-6ch">
+                                                <rect key="frame" x="162" y="219.5" width="51.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6wW-yk-4pY">
+                                                <rect key="frame" x="163" y="255" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="switchValueChanged:" destination="ufj-xg-AEU" eventType="valueChanged" id="QB9-TH-w1i"/>
+                                                </connections>
+                                            </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Indicator View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzw-5y-K65">
+                                                <rect key="frame" x="103" y="301" width="169.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="0Pb-hw-Rzh">
+                                                <rect key="frame" x="177.5" y="336.5" width="20" height="20"/>
+                                            </activityIndicatorView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stepper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWT-4F-e3t">
+                                                <rect key="frame" x="157" y="371.5" width="61" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="s5L-0O-Jbv">
+                                                <rect key="frame" x="140.5" y="407" width="94" height="29"/>
+                                                <connections>
+                                                    <action selector="stepperValueChanged:" destination="ufj-xg-AEU" eventType="valueChanged" id="HuP-56-4FN"/>
+                                                </connections>
+                                            </stepper>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="98F-LF-vMB" firstAttribute="leading" secondItem="9wz-IZ-KbP" secondAttribute="leading" constant="8" id="FLD-2u-Lub"/>
+                                            <constraint firstAttribute="trailing" secondItem="98F-LF-vMB" secondAttribute="trailing" constant="8" id="o5y-ck-H4w"/>
+                                            <constraint firstItem="cF9-3m-KQA" firstAttribute="leading" secondItem="9wz-IZ-KbP" secondAttribute="leading" constant="8" id="uxc-9E-QZB"/>
+                                            <constraint firstAttribute="trailing" secondItem="cF9-3m-KQA" secondAttribute="trailing" constant="8" id="x1j-dR-7CC"/>
+                                        </constraints>
+                                        <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9wz-IZ-KbP" secondAttribute="trailing" id="Akr-6i-SbP"/>
+                                    <constraint firstItem="9wz-IZ-KbP" firstAttribute="leading" secondItem="fIm-wd-MKy" secondAttribute="leading" id="O7n-fr-53l"/>
+                                    <constraint firstAttribute="width" secondItem="9wz-IZ-KbP" secondAttribute="width" id="SHM-o1-Kkg"/>
+                                    <constraint firstItem="9wz-IZ-KbP" firstAttribute="top" secondItem="fIm-wd-MKy" secondAttribute="top" id="UD1-kk-rrK"/>
+                                    <constraint firstAttribute="bottom" secondItem="9wz-IZ-KbP" secondAttribute="bottom" id="g1r-E8-Jp8"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s86-vG-5YP" firstAttribute="bottom" secondItem="fIm-wd-MKy" secondAttribute="bottom" id="5iW-ou-xrx"/>
+                            <constraint firstItem="fIm-wd-MKy" firstAttribute="leading" secondItem="s86-vG-5YP" secondAttribute="leading" id="dYO-5Y-Km9"/>
+                            <constraint firstItem="s86-vG-5YP" firstAttribute="trailing" secondItem="fIm-wd-MKy" secondAttribute="trailing" id="rRL-qg-hxc"/>
+                            <constraint firstItem="fIm-wd-MKy" firstAttribute="top" secondItem="s86-vG-5YP" secondAttribute="top" id="sU1-As-FFz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s86-vG-5YP"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="0Pb-hw-Rzh" id="n95-be-SSi"/>
+                        <outlet property="labelActivityIndicator" destination="Uzw-5y-K65" id="PGt-Md-IO3"/>
+                        <outlet property="labelProgress" destination="Gj1-n5-VRS" id="Lem-qK-XkJ"/>
+                        <outlet property="labelSegmentControl" destination="pgw-Wq-2im" id="rac-Yy-9kv"/>
+                        <outlet property="labelSlider" destination="nyG-tK-zZc" id="iOX-yQ-B2F"/>
+                        <outlet property="labelStepper" destination="rWT-4F-e3t" id="N6V-xJ-l9a"/>
+                        <outlet property="labelSwitch" destination="TYz-yf-6ch" id="sPG-yW-6Gh"/>
+                        <outlet property="progress" destination="98F-LF-vMB" id="aeZ-pQ-vFs"/>
+                        <outlet property="segmentedConrol" destination="ciG-KJ-XWt" id="aY1-8D-z6q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="axG-Ln-kJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2" y="-64"/>
+        </scene>
+    </scenes>
+</document>
