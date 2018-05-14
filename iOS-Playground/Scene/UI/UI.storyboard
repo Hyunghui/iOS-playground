@@ -27,6 +27,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nT0-Fq-X0f">
                                                 <rect key="frame" x="8" y="8" width="359" height="30"/>
                                                 <state key="normal" title="TableView"/>
+                                                <connections>
+                                                    <segue destination="DGD-3v-ooI" kind="show" id="IVl-eC-MTp"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2K-BO-VuA">
                                                 <rect key="frame" x="8" y="46" width="359" height="30"/>
@@ -78,6 +81,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNc-h7-XMz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-433" y="76"/>
+        </scene>
+        <!--SampleTableView-->
+        <scene sceneID="0tL-RL-irY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SampleTableView" id="DGD-3v-ooI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vrv-mh-o7o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="75"/>
         </scene>
     </scenes>
 </document>

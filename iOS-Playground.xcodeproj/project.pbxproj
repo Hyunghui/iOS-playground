@@ -19,6 +19,9 @@
 		C20D51A72091E180007458B3 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A62091E180007458B3 /* Meal.swift */; };
 		C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */; };
 		C20D51AB2091F70E007458B3 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20D51AA2091F70E007458B3 /* MealTableViewController.swift */; };
+		C29D13BE20A972960013D2DF /* SampleTableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29D13BD20A972960013D2DF /* SampleTableView.storyboard */; };
+		C29D13C020A9736D0013D2DF /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */; };
+		C29D13C220A973880013D2DF /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29D13C120A973880013D2DF /* SampleTableViewCell.swift */; };
 		C2B33CCA20A4493200156F74 /* SimpleSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */; };
 		C2B33CCC20A44A5100156F74 /* AdaptiveSingleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */; };
 		C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */; };
@@ -82,6 +85,9 @@
 		C20D51A62091E180007458B3 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		C20D51A82091EFB5007458B3 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		C20D51AA2091F70E007458B3 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		C29D13BD20A972960013D2DF /* SampleTableView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SampleTableView.storyboard; sourceTree = "<group>"; };
+		C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
+		C29D13C120A973880013D2DF /* SampleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 		C2B33CC920A4493200156F74 /* SimpleSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCB20A44A5100156F74 /* AdaptiveSingleView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdaptiveSingleView.storyboard; sourceTree = "<group>"; };
 		C2B33CCD20A44D3000156F74 /* TwoEqualWidthViews.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TwoEqualWidthViews.storyboard; sourceTree = "<group>"; };
@@ -255,6 +261,9 @@
 		C2B33D0520A95E8200156F74 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				C29D13BD20A972960013D2DF /* SampleTableView.storyboard */,
+				C29D13BF20A9736D0013D2DF /* SampleTableViewController.swift */,
+				C29D13C120A973880013D2DF /* SampleTableViewCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -451,6 +460,7 @@
 				C2B33CCE20A44D3000156F74 /* TwoEqualWidthViews.storyboard in Resources */,
 				C2B33CE020A5774700156F74 /* ThreeEqualWidthButtons.storyboard in Resources */,
 				C2B33CD620A5394A00156F74 /* SimpleLabelAndTextField.storyboard in Resources */,
+				C29D13BE20A972960013D2DF /* SampleTableView.storyboard in Resources */,
 				C2B33CF120A5DCC200156F74 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -640,11 +650,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B33CF720A5E69300156F74 /* SwiftTest1ViewController.swift in Sources */,
+				C29D13C220A973880013D2DF /* SampleTableViewCell.swift in Sources */,
 				C2E5123D2088994300125547 /* MealViewController.swift in Sources */,
 				C2E512432088994300125547 /* iOS_Playground.xcdatamodeld in Sources */,
 				C20D51A92091EFB5007458B3 /* MealTableViewCell.swift in Sources */,
 				C208093B20A42F1000295F46 /* DynamicStackViewViewController.swift in Sources */,
 				C207C26F208E055A00051F1A /* L.swift in Sources */,
+				C29D13C020A9736D0013D2DF /* SampleTableViewController.swift in Sources */,
 				C20D51A52091A450007458B3 /* RatingControl.swift in Sources */,
 				C20D51A72091E180007458B3 /* Meal.swift in Sources */,
 				C20D51AB2091F70E007458B3 /* MealTableViewController.swift in Sources */,
